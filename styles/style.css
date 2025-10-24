@@ -132,7 +132,7 @@
 }
 
 .card__image.mixed {
-  filter: contrast(150%) opacity(50%);
+  filter: contrast(150%) grayscale(50%) blur(2px);
 }
 
 .card__container, 
