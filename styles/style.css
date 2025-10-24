@@ -122,15 +122,17 @@
 .card__image.blur {
   filter: blur(2px);
 }
+
 .card__image.invert {
   filter: invert(100%);
 }
+
 .card__image.hue-rotate {
   filter: hue-rotate(180deg);
 }
 
 .card__image.mixed {
-  filter: contrast(150%) sepia(100%);
+  filter: contrast(150%) opacity(50%);
 }
 
 .card__container, 
