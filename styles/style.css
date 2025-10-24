@@ -107,29 +107,29 @@
   aspect-ratio: 1 / 1;
 }
 
-.card__image .saturate {
+.card__image.saturate {
   filter: saturate(300%);
 }
 
-.card__image .sepia{
+.card__image.sepia{
   filter: sepia(50%);
 }
 
-.card__image .grayscale {
+.card__image.grayscale {
   filter: grayscale(100%);
 }
 
-.card__image .blur {
+.card__image.blur {
   filter: blur(2px);
 }
-.card__image .invert {
+.card__image.invert {
   filter: invert(100%);
 }
-.card__image .hue-rotate {
+.card__image.hue-rotate {
   filter: hue-rotate(180deg);
 }
 
-.card__image .mixed {
+.card__image.mixed {
   filter: contrast(150%) sepia(100%);
 }
 
