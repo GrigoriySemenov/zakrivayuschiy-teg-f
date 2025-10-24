@@ -319,7 +319,7 @@
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  border: 2px solid #000;
+  border: var(--border);
   font-family: #000;
   padding-inline: 35px;
   padding-block: 10.5px;
@@ -415,5 +415,9 @@
     width: 39px;
     height: 39px;
     align-self: center;
+  }
+
+  .save__button::after {
+    top: 0px;
   }
 }
