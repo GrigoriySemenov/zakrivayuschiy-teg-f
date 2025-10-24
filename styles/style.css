@@ -83,7 +83,6 @@
   color: rgba(0, 0, 0, 0.7);
   -webkit-text-stroke: var(--label-stroke-color);
   mix-blend-mode: hard-light;
-  font-size: 14px;
   z-index: 10;
 }
 
@@ -100,7 +99,8 @@
       1px -1px 0 var(--label-stroke-color),
       -1px  1px 0 var(--label-stroke-color),
       1px  1px 0 var(--label-stroke-color);
-    }}
+    }
+  }
 
 .card__image {
   width: 100%;
@@ -111,7 +111,7 @@
   filter: saturate(300%);
 }
 
-.card__image.sepia{
+.card__image.sepia {
   filter: sepia(50%);
 }
 
@@ -217,6 +217,7 @@
   cursor: pointer;
   transition: outline-color 0.2s ease;
   padding-block: 0;
+  padding-top: 6px;
 }
 
 .card__buttons {
@@ -233,12 +234,6 @@
   background-color: #fff;
   width: 130px;
   height: 38px;
-}
-
-.card__icon-button {
-  padding-top: 6px;
-  background-color: transparent;
-  border: none;
 }
 
 .card__icon-button:focus-visible {
