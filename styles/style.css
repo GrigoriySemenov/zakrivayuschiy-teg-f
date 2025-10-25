@@ -148,7 +148,7 @@
 
 .card__info {
   font-size: 18px;
-  font-variation-settings: 'wght' var(--main__font-weight-text);
+  font-variation-settings: "wght" var(--main__font-weight-text);
   line-height: 21px;
 }
 
@@ -234,12 +234,11 @@
   background-color: #fff;
   width: 130px;
   height: 38px;
-  padding-inline: 35px; 
-  padding-block: 10.5px; 
-  font-size: 14px; 
-  flex-direction: row; 
+  padding-inline: 35px;
+  padding-block: 10.5px;
+  font-size: 14px;
+  flex-direction: row;
 }
-
 
 .card__icon-button:focus-visible {
   outline: var(--border);
@@ -376,9 +375,9 @@
   }
 
   .card__icon-button {
-  padding-block-end: 5px;
+    padding-block-end: 5px;
   }
-  
+
   .save__button {
     width: 306px;
     height: 86px;
