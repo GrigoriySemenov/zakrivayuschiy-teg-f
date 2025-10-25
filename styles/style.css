@@ -252,14 +252,7 @@
   text-align: center;
   mix-blend-mode: difference;
   z-index: 1;
-}
-
-.button .button__text {
   white-space: nowrap;
-  position: relative;
-  color: #fff;
-  mix-blend-mode: difference;
-  z-index: 2;
 }
 
 .save__button-icon {
