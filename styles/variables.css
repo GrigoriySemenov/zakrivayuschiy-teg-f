@@ -22,7 +22,7 @@
     );
   --content-width: clamp(375px, 90vw, 700px);
   --border: solid 2px #000;
-  --label-stroke-color: 1px rgba(255, 255, 255, 0.7);
+  --label-stroke-color: 1px rgba(255, 255, 255, 0.5);
   --animation-fill-color: #FF0000;
   --contour-color: #000;
 }
